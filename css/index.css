@@ -1,0 +1,57 @@
+:root {
+  --h: 140px;
+}
+body{
+  margin: 200px auto;
+  background-color: lightskyblue;
+}
+pre{
+  margin: 0px;
+  white-space: pre-line;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+  height: 230px;
+  width: 600px;
+}
+.row{
+  width: 100%;
+  display:table-row;
+  margin:0 auto;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 230px;
+}
+.material{
+  height: var(--h);
+  width: var(--h);
+  color: #fff;
+  background-color: greenyellow;
+  letter-spacing: .5px;
+  transition: background-color .5s ease-out;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  float: left;
+  line-height: var(--h);
+  text-align: center;
+  font-size: 40px;
+  margin-left: 45px;
+}
+.black{
+  background-color: black;
+  transition: background-color 1s;
+  color: white;
+}
+.whitesmoke{
+  background-color: whitesmoke;
+  transition: background-color 1s;
+  color: black;
+}
