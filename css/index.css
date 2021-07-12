@@ -9,7 +9,7 @@ pre{
   margin: 0px;
   white-space: pre-line;
 }
-.container{
+.row{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,17 +17,16 @@ pre{
 .box{
   height: 230px;
   width: 600px;
-}
-.row{
-  width: 100%;
   display:table-row;
   margin:0 auto;
+}
+.row{
+  width: 100%; 
 }
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 230px;
 }
 .material{
   height: var(--h);
