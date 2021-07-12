@@ -3,49 +3,48 @@ let currentvalue=document.querySelector('.currentvalue');
 let increase=document.querySelector('.increase');
 let count=0;
 let cont=document.querySelector(".row1");
-setcounter();
+setvalue();
 decrease.addEventListener("click",()=>{
     count--;
-    setcounter();
+    setvalue();
 });
 currentvalue.addEventListener("click", ()=>{
     count=0;
-    setcounter();
+    setvalue();
 });
 increase.addEventListener("click",()=>{
     count++;
-    setcounter();
+    setvalue();
 });
 document.addEventListener("keydown", (e)=> {
     switch(e.key){
         case "ArrowLeft":
             count--;
-            setcounter();
+            setvalue();
             break;
             
         case "ArrowRight":
             count++;
-            setcounter();
+            setvalue();
             break;
            
         case "ArrowDown":
             count--;
-            setcounter();
+            setvalue();
             break;
             
         case "ArrowUp":
             count++;
-            setcounter();
+            setvalue();
             break;
         case " ":
             count=0;
-            setcounter();
+            setvalue();
             break;
         default:         
     }
 });
-
-function setcounter(){
+function setvalue(){
     currentvalue.innerHTML=count.toString();
     if(parseInt(currentvalue.innerHTML)%2==0){
         decrease.classList.remove("black");
@@ -64,4 +63,5 @@ function setcounter(){
         increase.classList.add("black");
     }
 }
+document.body.style.cursor="url('img/myhand1.png'), auto";
 
