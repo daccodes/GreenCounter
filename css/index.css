@@ -3,11 +3,15 @@
 }
 body{
   margin: 200px auto;
-  background-color: lightskyblue;
+  background-color: #578e44;
+  color: black;
 }
 pre{
   margin: 0px;
   white-space: pre-line;
+}
+.decrease:hover, .currentvalue:hover, .increase:hover{
+  cursor: url("../img/myhand.png"), url("../img/myhand.cur"),auto !important;
 }
 .row{
   display: flex;
@@ -35,7 +39,7 @@ pre{
   background-color: greenyellow;
   letter-spacing: .5px;
   transition: background-color .5s ease-out;
-  cursor: pointer;
+  /*cursor: pointer;*/
   border: none;
   border-radius: 4px;
   float: left;
