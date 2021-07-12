@@ -20,3 +20,5 @@ Inoltre è possibile utilizzare il contatore in 2 diversi modi;
 Nel primo caso sarà sufficiente effettuare il click sui bottoni "+" e "-" per modificare il valore e sul valore stesso per azzerarlo.
 Utilizzando la tastiera, le frecce "sinistra" e "giu" diminuiscono il valore mentre quelle "destra" e "su" lo incrementano. La barra spaziatrice invece azzera il valore.
 
+## Live Demo:
+https://daccodes.github.io/GreenCounter/
