@@ -7,10 +7,6 @@ body{
   color: #f5dfc8;
   text-shadow: 0px 0px 20px #000000;
 }
-pre{
-  margin: 0px;
-  white-space: pre-line;
-}
 .row{
   display: flex;
   align-items: center;
@@ -55,4 +51,9 @@ pre{
   color: black;
   border: black solid 3px;
   text-shadow:none;
+}
+@media screen and (max-width: 600px) {
+  :root{
+    --h:90px;
+  }
 }
