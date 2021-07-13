@@ -52,7 +52,7 @@ body{
   border: black solid 3px;
   text-shadow:none;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 380px) {
   .box{ 
     height: 115px;
     width: 300px;
