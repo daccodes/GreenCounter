@@ -52,7 +52,14 @@ body{
   border: black solid 3px;
   text-shadow:none;
 }
-@media only screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
+  .box{ 
+    height: 115px;
+    width: 300px;
+    display:table-row;
+    margin:0 auto;
+    margin-top: 30px;
+  }
   .material{
     height: 70px;
     width: 70px;
@@ -68,4 +75,17 @@ body{
     font-size: 20px;
     margin-left: 22px;
   }
+  .black{
+    background-color: black;
+    transition: background-color 1s;
+    color: white;
+    border: white solid 3px;
+    text-shadow:none;
+  }
+  .whitesmoke{
+    background-color: whitesmoke;
+    transition: background-color 1s;
+    color: black;
+    border: black solid 3px;
+    text-shadow:none;
 }
