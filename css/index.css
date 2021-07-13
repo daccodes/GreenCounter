@@ -52,7 +52,7 @@ body{
   border: black solid 3px;
   text-shadow:none;
 }
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 320px) {
   :root{
     --h:70px;
   }
