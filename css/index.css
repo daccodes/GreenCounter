@@ -54,6 +54,21 @@ body{
 }
 @media screen and (max-width: 600px) {
   :root{
-    --h:90px;
+    --h:70px;
+  }
+  .material{
+    height: var(--h);
+    width: var(--h);
+    color: #fff;
+    background-color: greenyellow;
+    letter-spacing: .5px;
+    transition: background-color .5s ease-out;
+    border: none;
+    border-radius: 4px;
+    float: left;
+    line-height: var(--h);
+    text-align: center;
+    font-size: 20px;
+    margin-left: 22px;
   }
 }
